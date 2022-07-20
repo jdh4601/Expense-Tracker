@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2a2a2a;
+  color: white;
+  border-radius: 12px;
+  position: sticky;
+}
+
+.title {
+  margin-left: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.change-btn {
+  margin-right: 10px;
+  height: 25px;
+  width: 60px;
+  border-radius: 6px;
+}
