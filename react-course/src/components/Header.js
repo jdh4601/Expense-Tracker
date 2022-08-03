@@ -1,12 +1,11 @@
 import './Header.css';
-import ChangeMoney from './ChangeMoney';
+import Card from './UI/Card';
 
-function Header(props) {
+function Header() {
   return (
-    <div className="container">
+    <Card className="container">
       <h1 className="title">🤑 Expense Tracker</h1>
-      <ChangeMoney monetary={props.monetary} />
-    </div>
+    </Card>
   );
 }
 
